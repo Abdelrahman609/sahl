@@ -1,10 +1,55 @@
+
+
 <div class="home">
   <div class="container">
-    <div class="row">
+    <!-- <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <div class="content-search">
+            <div class="lists-search">
+                <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                <span>Categories</span>
+            </div>
+            <div class="search-icons">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </div>
+            <div class="cat-search">              
+                <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+              <span>Choose category</span>
+            </div>
+
+          </div>
+        </div>
+    </div> -->
+
+    <div class="row search-bar">    
+        <div class="col-md-12">
+		    <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> <span id="search_concept">Filter by</span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#contains">Contains</a></li>
+                      <li><a href="#its_equal">It's equal</a></li>
+                      <li><a href="#greather_than">Greather than ></a></li>
+                      <li><a href="#less_than">Less than < </a></li>
+                      <li class="divider"></li>
+                      <li><a href="#all">Anything</a></li>
+                    </ul>
+                </div>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                <span class="input-group-btn search-icons-one">
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+        </div>
+	</div>
+    <div class="row row1">
       <div class="col-md-4 col-sm-6">
         <div>
           <a href="">
-              <img src="assets/logo.jpg" alt="Clothes">
+              <img src="assets/branches/tshirt.png" alt="Clothes">
               <span>Clothes</span>
           </a>
         </div>
@@ -12,7 +57,7 @@
       <div class="col-md-4 col-sm-6">
           <div>
             <a href="">
-                <img src="assets/logo.jpg" alt="Clothes">
+                <img src="assets/branches/car.png" alt="Clothes">
                 <span>Cars</span>
             </a>
           </div>
@@ -20,7 +65,7 @@
         <div class="col-md-4 col-sm-6">
             <div>
               <a href="">
-                  <img src="assets/logo.jpg" alt="Clothes">
+                  <img src="assets/branches/doctor.png" alt="Clothes">
                   <span>Doctors</span>
               </a>
             </div>
@@ -28,7 +73,7 @@
           <div class="col-md-4 col-sm-6">
               <div>
                 <a href="">
-                    <img src="assets/logo.jpg" alt="Clothes">
+                    <img src="assets/branches/classroom.png" alt="Clothes">
                     <span>Teachers</span>
                 </a>
               </div>
@@ -36,7 +81,7 @@
       <div class="col-md-4 col-sm-6">
         <div>
             <a href="">
-                <img src="assets/logo.jpg" alt="Clothes">
+                <img src="assets/branches/armchair.png" alt="Clothes">
                 <span>Fernatures</span>
             </a>
         </div>
@@ -44,11 +89,21 @@
       <div class="col-md-4 col-sm-6">
         <div>
             <a href="">
-                <img src="assets/logo.jpg" alt="Clothes">
+                <img src="assets/branches/smartphone.png" alt="Clothes">
                 <span>Mobiles</span>
             </a>
         </div>
       </div>
+      <div class="col-md-4 col-sm-6">
+        <div>
+            <a href="">
+                <img src="assets/branches/medicine.png" alt="Clothes">
+                <span>pharmacy</span>
+            </a>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </div>
