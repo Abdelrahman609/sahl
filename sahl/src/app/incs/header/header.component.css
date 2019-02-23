@@ -16,21 +16,26 @@
     display: flex;
     align-items: center;
 }
+.lists-nav .brand ul li img {
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+}
 .lists-nav .brand ul li:first-of-type{
     margin-right: 10px;
     border-right: 1px solid #aaaaaa;
     padding-right: 10px;
 }
 .lists-nav .brand ul li a.active {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: blue;
 }
 .lists-nav .brand ul li a {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.lists-nav .brand img{
-    width: 70px;
-    height: 70px;
+.lists-nav .logo-nav img{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -40,13 +45,13 @@
 
 .lists-nav .list-nav ul li a {
     color: #656565;
-    font-size: 16px;
+    font-size: 2rem;
     text-decoration: none;
     margin-right: 10px;
     transition: all .7s ease-in-out;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-transform: uppercase; */
+    /* font-weight: 500; */
+    font-family: 'Open Sans', sans-serif;
 }
 .lists-nav .list-nav ul li a.active {
     color: #008329;
@@ -54,3 +59,4 @@
 .lists-nav .list-nav ul li a:hover {
     color: #008329;
 }
+
