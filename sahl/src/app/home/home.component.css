@@ -172,3 +172,21 @@
 
 
 /**************************** end new brands *******************************/
+
+
+/************************** latest otem *************************************/
+.latest-item {
+    margin-top: 50px;
+}
+.latest-item h3 {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nova Flat', cursive;
+    font-weight: 550;
+    margin-bottom: 40px;
+}
+.latest-item h3 img {
+    width: 60px;
+    margin-right: 30px;
+}
+/*************************** latest item ************************************/
