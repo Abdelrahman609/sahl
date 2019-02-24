@@ -178,7 +178,7 @@
 .latest-item {
     margin-top: 50px;
 }
-.latest-item h3 {
+.latest-item .container > h3 {
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Nova Flat', cursive;
@@ -188,5 +188,52 @@
 .latest-item h3 img {
     width: 60px;
     margin-right: 30px;
+}
+.latest-item .container .row > div h3 {
+    color: #008329;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nova Flat', cursive;
+    cursor: pointer;
+}
+.latest-item .container .row > div p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.latest-item .container .row > div .price,
+.latest-item .container .row > div .discount {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.latest-item .container .row > div .price {
+    bottom: 50px;
+    right: 20px;
+}
+.latest-item .container .row > div .price span {
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.latest-item .container .row > div .price span:first-child {
+    background: #eeeeee;
+    margin: 0px 10px;
+}
+.latest-item .container .row > div .price span:last-child {
+    background: #cccccc;
+    text-decoration: line-through;
+}
+
+.latest-item .container .row > div .discount {
+    top: 5px;
+    right: 20px;
+    background: #008329;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+.latest-item .container .row > div img {
+    height: 250px;
+    width: 100%;
 }
 /*************************** latest item ************************************/
