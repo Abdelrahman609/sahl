@@ -22,16 +22,16 @@
       <div class="list-nav">
         <ul class="list-unstyled">
           <li>
-            <a href="" class="active">Home</a>
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
           </li>
           <li>
-            <a href="">Latest items</a>
+            <a href="#lastItems">Latest items</a>
           </li>
           <li>
-            <a href="">Offers</a>
+            <a href="#offers">Offers</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <a routerLink="/contact" routerLinkActive="active">Contact Us</a>
           </li>
         </ul>
       </div>

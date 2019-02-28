@@ -26,59 +26,12 @@
       </div>
     </div>
     <div class="row row1">
-      <div class="col-md-4 col-sm-6">
+
+      <div class="col-md-4 col-sm-6" *ngFor="let branch of cats">
         <div>
           <a href="">
-            <img src="assets/branches/tshirt.png" alt="Clothes">
-            <span>Clothes</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div>
-          <a href="">
-            <img src="assets/branches/car.png" alt="Clothes">
-            <span>Cars</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div>
-          <a href="">
-            <img src="assets/branches/doctor.png" alt="Clothes">
-            <span>Doctors</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div>
-          <a href="">
-            <img src="assets/branches/classroom.png" alt="Clothes">
-            <span>Teachers</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div>
-          <a href="">
-            <img src="assets/branches/armchair.png" alt="Clothes">
-            <span>Fernatures</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div>
-          <a href="">
-            <img src="assets/branches/smartphone.png" alt="Clothes">
-            <span>Mobiles</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div>
-          <a href="">
-            <img src="assets/branches/medicine.png" alt="Clothes">
-            <span>pharmacy</span>
+            <img src="assets/branches/{{branch['name']}}.png" alt="Clothes">
+            <span>{{ branch['name']}}</span>
           </a>
         </div>
       </div>
@@ -230,7 +183,7 @@
 </section>
 
 <hr>
-<section class="offers">
+<section class="offers" id="offers">
   <div class="container">
     <h3>
       <img src="assets/brands/sale.png" alt="Ads">
@@ -330,7 +283,7 @@
 
 <hr>
 
-<section class="latest-item">
+<section class="latest-item" id="lastItems">
   <div class="container">
     <h3>
       <img src="assets/brands/list.png" alt="Ads">
